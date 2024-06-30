@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    display: none; /* Initially hidden */
+}
+/* .content {
+    position: relative;
+    z-index: 1;
+} */
+.bgd {
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('https://i.ytimg.com/vi/89tWtGWxwTk/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.bgd-hd {
+    background-color: rgba(224, 224, 229, 0.484);
+}
+.bgd2 {
+    background-color: rgba(157, 165, 174, 0.619);
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.text-light {
+    color: #ffffff;
+}
+.icon-button {
+    background: none;
+    border: none;
+    color: #090a0a;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.icon-button:hover {
+    color: #0056b3;
+}
+.line-input {
+    border: none;
+    border: 2px solid #0f2032;
+    border-radius: 10px;
+    height: 40px;
+    background-color: transparent;
+    color: #000;
+    outline: none;
+
+}
+.line-input:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #0f2032;
+    border-radius: 0;
+    background-color: transparent;
+    color: #000;
+    outline: none;
+}
+.line-input::placeholder {
+    color: #131415;
+}
+.searchbar {
+    overflow: hidden;
+    /* background-color: #cdcca6; */
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+.searchbar-icon {
+/* position: absolute; */
+padding-top: 10px;
+background-color: transparent;
+color: #010001;
+cursor: pointer;
+}
