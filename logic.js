@@ -58,9 +58,13 @@ const search = async () => {
                 <span>Weather: ${details.main}</span><br>
                 <span>Description: ${details.description}</span><br>
                 <br>
-                <span>Humidity: ${humidity}%</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>Pressure: ${pressure} hPa</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>Wind Speed: ${speed} m/s</span>
+                <div class="row">
+                <div class="col-md-3 text-center"><span>Humidity: ${humidity}%</span></div>
+                <div class="col-md-4 text-center"><span>Pressure: ${pressure} hPa</span></div>
+                <div class="col-md-5 text-center"><span>Wind Speed: ${speed} m/s</span></div>
+                </div>
+
+               
             </div>
         `;
     } catch (error) {
