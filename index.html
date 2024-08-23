@@ -16,28 +16,30 @@
     <video autoplay muted loop class="video-bg" id="bg-video">
         <source src="https://th.bing.com/th/id/OIP.csvL_ES3PV4Zc1DAlmXaPgAAAA?pid=ImgDet&w=198&h=163&c=7&dpr=1.5" type="video/mp4"> <!-- Replace with your default video URL -->
     </video>
-    <div class="content bgd" id="bgd1">
-        <div class="row justify-content-center">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 text-center">
-                <div class="bgd-hd p-4 rounded-2">
-                    <h1 class="text-center text-dark">Weather Now</h1>
-                    <div class="mb-3 mt-4 d-flex justify-content-center align-items-center">
-                        
-                        <div class="d-flex">
-                            <input type="text" class="line-input searchbar" placeholder="  Enter City Name" id="val">
-                        </div> 
-                        <div class="searchbar-icon ms-3">
-                            <i class="fas fa-search fs-4" onclick="search()"></i>                           
-                            <i class="fas fa-sync-alt fs-4" onclick="refreshPage()"></i>
+    <div class="bgd" id="bgd1">
+<div id="bgd0">
+            <div class="row justify-content-center">
+                <!-- <div class="col-md-3"></div> -->
+                <div class="col-md-12 text-center d-flex justify-content-center align-items-center">
+                    <div class="bgd-hd p-4 rounded-2">
+                        <h1 class="text-center text-dark">Weather Now</h1>
+                        <div class="mb-3 mt-4 d-flex justify-content-center align-items-center">
+                            
+                            <div class="d-flex">
+                                <input type="text" class="line-input searchbar" placeholder="  Enter City Name" id="val">
+                            </div> 
+                            <div class="searchbar-icon ms-3">
+                                <i class="fas fa-search fs-4" onclick="search()"></i>                           
+                                <i class="fas fa-sync-alt fs-4" onclick="refreshPage()"></i>
+                            </div>
+                            </button>
                         </div>
-                        </button>
+                        <div id="result" class="mt-4 text-light"></div>
                     </div>
-                    <div id="result" class="mt-4 text-light"></div>
                 </div>
+                <!-- <div class="col-md-3"></div> -->
             </div>
-            <div class="col-md-3"></div>
-        </div>
+</div>
     </div>
 
     <script src="./logic.js"></script>

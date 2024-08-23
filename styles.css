@@ -17,16 +17,24 @@
     z-index: 1;
 } */
 .bgd {
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
-    background-image: url('https://i.ytimg.com/vi/89tWtGWxwTk/maxresdefault.jpg');
+    background-image: url('https://img.freepik.com/premium-vector/four-clouds-sky-icons_24908-71237.jpg');
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
+#bgd0{
+    background-color: #000000a9;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
 .bgd-hd {
-    background-color: rgba(224, 224, 229, 0.484);
+    background-color: rgba(224, 224, 229, 0.788);
+    width: 500px;
+    /* margin-top: 200px; */
 }
 .bgd2 {
     background-color: rgba(157, 165, 174, 0.619);
@@ -74,6 +82,7 @@
     /* background-color: #cdcca6; */
     background-color: transparent;
     backdrop-filter: blur(2px);
+    width: 380px;
 }
 .searchbar-icon {
 /* position: absolute; */

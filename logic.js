@@ -20,6 +20,7 @@ const setBgVideo = (main, isDay) => {
 
     bgVideo.src = videoUrl;
     bgVideo.style.display = 'block';
+    bgd0.style.backgroundColor = 'transparent';
     document.querySelector('.bgd').style.backgroundImage = 'none';
 };
 
@@ -77,5 +78,5 @@ const refreshPage = () => {
     document.getElementById('val').value = '';
     document.getElementById('result').innerHTML = '';
     document.getElementById('bg-video').style.display = 'none';
-    document.querySelector('.bgd').style.backgroundImage = "url('https://i.ytimg.com/vi/89tWtGWxwTk/maxresdefault.jpg')";
+    document.querySelector('.bgd').style.backgroundImage = "url('https://img.freepik.com/premium-vector/four-clouds-sky-icons_24908-71237.jpg')";
 };
